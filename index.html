@@ -10,36 +10,38 @@
   <title>Age calculator app</title>
 </head>
 <body>
-  <main>
-    <form>
-      <div>
+  <div class="container">
+    <main>
+      <form>
         <div>
-          <label for="day">day</label>
+          <div>
+            <label for="day">day</label>
+          </div>
+          <input type="text" id="date" placeholder="DD" value="">
         </div>
-        <input type="text" id="date" placeholder="DD" value="">
-      </div>
-      <div>
         <div>
-          <label for="month">Month</label>
+          <div>
+            <label for="month">Month</label>
+          </div>
+          <input type="text" id="month" placeholder="MM">
         </div>
-        <input type="text" id="month" placeholder="MM">
-      </div>
-      <div>
         <div>
-          <label for="Year">Year</label>
+          <div>
+            <label for="Year">Year</label>
+          </div>
+          <input type="text" id="year" placeholder="YYYY">
         </div>
-        <input type="text" id="year" placeholder="YYYY">
+      </form>
+      <div class="icon">
+        <hr>
+        <button id="btn"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
       </div>
-    </form>
-    <div class="icon">
-      <hr>
-      <button id="btn"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
-    </div>
-    <div class="display">
-      <h2><span id="displayYear">-- </span>years</h2>
-      <h2><span id="displayMonth">-- </span>months</h2>
-      <h2><span id="displayDay">-- </span>days</h2>
-    </div>
-  </main>
+      <div class="display">
+        <h2><span id="displayYear">-- </span>years</h2>
+        <h2><span id="displayMonth">-- </span>months</h2>
+        <h2><span id="displayDay">-- </span>days</h2>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
