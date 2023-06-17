@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+body{
+    background-color: hsl(0, 0%, 86%);
+}
+main{
+    max-width: 30rem;
+    margin-inline: auto;
+    margin-block: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border-bottom-right-radius: 6rem;
+    font-family: 'Poppins', sans-serif;
+    background-color:  hsl(0, 0%, 100%);
+}
+form{
+    gap: 1rem;
+}
+form,.icon{
+    display: flex;
+}
+
+.icon{
+    align-items: center;
+}
+
+label{
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: hsl(0, 1%, 44%);
+}
+input{
+    width: 6rem;
+    padding:0.5rem 1rem;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid hsl(0, 2%, 83%);
+}
+svg{
+    /* margin-right: 0px; */
+    border-radius: 50%;
+    padding: 10px;
+    background-color: hsl(259, 100%, 65%);
+}
+hr{
+    width: 23rem;
+    height: 0.1rem;
+    background-color: black;
+}
+.display{
+    margin-block: 2rem;
+}
+h2,span{
+    font-size: 52px;
+    font-weight: 800;
+    font-style: italic;
+}
+span{
+    color: hsl(259, 100%, 65%);
+}
+
+@media ( width < 500px) {
+    /* main{
+        position: relative;
+    } */
+    svg{
+        position: relative;
+        inset: 0 10rem 0 0;
+        /* right: 10rem; */
+    }
+}
